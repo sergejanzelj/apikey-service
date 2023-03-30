@@ -1,0 +1,18 @@
+p, read_domain, domain, read
+p, read_global, global, read 
+p, create_domain, domain, create
+p, create_global, global, create
+p, update_domain, domain, update
+p, update_global, global, update
+p, delete_domain, domain, delete
+p, delete_global, global, delete
+
+g, creator, read_domain
+g, creator, create_domain
+g, creator, update_domain
+g, creator, delete_domain
+
+g, admin, creator
+g, admin, create_global
+g, admin, update_global
+g, admin, delete_global

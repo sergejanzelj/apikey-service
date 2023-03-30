@@ -1,0 +1,9 @@
+core:
+mongoDb:
+  addresses:
+    - production-cluster-shard-00-00.fvcwb.gcp.mongodb.net:27017
+    - production-cluster-shard-00-01.fvcwb.gcp.mongodb.net:27017
+    - production-cluster-shard-00-02.fvcwb.gcp.mongodb.net:27017
+  database: vibeit
+  username: prod
+  password: 

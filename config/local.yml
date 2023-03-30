@@ -1,0 +1,11 @@
+core:
+  allowedOrigins:
+    - http://localhost:3000
+mongoDb:
+  addresses:
+    - staging-cluster-shard-00-00-fvcwb.gcp.mongodb.net:27017
+    - staging-cluster-shard-00-01-fvcwb.gcp.mongodb.net:27017
+    - staging-cluster-shard-00-02-fvcwb.gcp.mongodb.net:27017
+  database: vibeit
+  username: nbl-staging
+  password: Poj1FDsNEzG7xIAs
